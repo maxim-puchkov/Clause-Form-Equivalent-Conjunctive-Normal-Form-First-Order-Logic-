@@ -1,0 +1,11 @@
+7.18/10.00
+
+P1: 3.8/5
+P2: 2/3
+P3: 2/2
+vars does not handle Equiv
+Does not apply distributive law
+Does not remap variable names within function calls. E.g., forall(x,forall(y,exists(z,F(x,y,z))))
+delFormAssoc doesn't handle Exists. E.g., forall(x,and(exists(y,y),exists(y,f(y)),exists(y,f(y))))
+Does not standardize non-nested names. (above)
+Some puzzle predicates require solution. E.g., 1.3) exists(x,exists(y, and(swimrank(fariba,x),swimrank(mary,y),x > y))) ...
